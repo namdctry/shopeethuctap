@@ -12,6 +12,7 @@ import { useStore } from "vuex";
 
 const route = useRoute();
 const router = useRouter();
+
 const store = useStore();
 const slug = route.params.slug;
 
